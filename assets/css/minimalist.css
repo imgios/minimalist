@@ -13,3 +13,8 @@ header, section {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+/* Images utils */
+.img-rounded {
+  border-radius: 50% !important;
+}
