@@ -1,3 +1,9 @@
+/* Header and Section */
+header, section {
+  padding-top: 5rem;
+}
+
+/* Margins */
 #my-auto {
   margin-top: auto !important;
   margin-bottom: auto !important;
