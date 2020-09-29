@@ -7,6 +7,8 @@
 * 12/29/2014
 */
 
+/* Move Google Font import in the css */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,300,600');
 
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
