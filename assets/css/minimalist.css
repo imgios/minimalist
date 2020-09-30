@@ -3,6 +3,11 @@ header, section {
   padding-top: 5rem;
 }
 
+/* Social Icons a color */
+.social-icons a {
+  color: black!important;
+}
+
 /* User Image */
 .user-image {
   width: 140px;
