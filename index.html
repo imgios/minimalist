@@ -55,17 +55,23 @@
       <div class="container">
         <!-- ./content-switch -->
         <div class="d-flex justify-content-center">
-          <ul class="list-group list-group-horizontal-md" id="list-tab" role="tablist">
-            <li class="list-group-item small text-uppercase active" id="list-experience-list" data-toggle="list" href="#list-experience" role="tab" aria-controls="experience">Experience</li>
-            <li class="list-group-item small text-uppercase">Projects</li>
-          </ul>
+          <div class="list-group list-group-horizontal-md" id="content-tabs" role="tablist">
+            <a class="list-group-item small text-uppercase" id="list-experience-list" data-toggle="list" href="#experience" role="tab">Experience</a>
+            <a class="list-group-item small text-uppercase" id="list-projects-list" data-toggle="list" href="#projects" role="tab">Projects</a>
+          </div>
         </div>
         <!-- ./content-switch -->
         <!-- ./content-body -->
         <div class="row">
-          <div class="col-md tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="list-experience" role="tabpanel" aria-labelledby="list-experience-list">
-              Test.
+          <div class="col-md tab-content">
+            <!-- ./experience-panel-->
+            <div class="tab-pane fade show active" id="experience" role="tabpanel">
+              <p>Lorem ipsum dolorsit amet.</p>
+              <!-- TODO: Adding timeline. -->
+            </div>
+            <!-- ./projects-panel-->
+            <div class="tab-pane fade show" id="projects" role="tabpanel">
+              <p>Lorem ipsum dolorsit amet.</p>
               <!-- TODO: Adding timeline. -->
             </div>
           </div>
