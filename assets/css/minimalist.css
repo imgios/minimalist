@@ -11,9 +11,20 @@ header, section {
   padding-top: 5rem;
 }
 
+/* Anchors */
+a {
+  color: black;
+  background-image: linear-gradient(to right, black, black);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  text-decoration: none !important;
+}
+
 /* Social Icons a color */
 .social-icons a {
   color: black!important;
+  background: none;
 }
 
 /* User Image */
