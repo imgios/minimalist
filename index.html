@@ -55,12 +55,21 @@
       <div class="container">
         <!-- ./content-switch -->
         <div class="d-flex justify-content-center">
-          <ul class="list-group list-group-horizontal-md">
-            <li class="list-group-item small text-uppercase">Experience</li>
+          <ul class="list-group list-group-horizontal-md" id="list-tab" role="tablist">
+            <li class="list-group-item small text-uppercase active" id="list-experience-list" data-toggle="list" href="#list-experience" role="tab" aria-controls="experience">Experience</li>
             <li class="list-group-item small text-uppercase">Projects</li>
           </ul>
         </div>
         <!-- ./content-switch -->
+        <!-- ./content-body -->
+        <div class="row">
+          <div class="col-md tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-experience" role="tabpanel" aria-labelledby="list-experience-list">
+              Test.
+              <!-- TODO: Adding timeline. -->
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
