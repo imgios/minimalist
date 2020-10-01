@@ -23,3 +23,14 @@ header, section {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
+
+/* Content Switcher */
+.list-group-item.active {
+  color: white!important;
+  background: black!important;
+  border-color: black!important;
+}
+
+.list-group a {
+  color: black!important;
+}
