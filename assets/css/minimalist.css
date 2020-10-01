@@ -45,6 +45,12 @@ a:hover {
   filter: grayscale(100%);
 }
 
+@media (max-width: 767px) {
+  header .col-lg-2 {
+    padding-bottom: 3rem;
+  }
+}
+
 /* Content Switcher */
 .list-group-item.active {
   color: white!important;
