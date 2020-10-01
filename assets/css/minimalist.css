@@ -14,11 +14,21 @@ header, section {
 /* Anchors */
 a {
   color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: black;
   background-image: linear-gradient(to right, black, black);
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 100% 2px;
   text-decoration: none !important;
+}
+
+/* Content tabs a */
+#content-tabs a {
+  text-decoration: none;
 }
 
 /* Social Icons a color */
