@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/imgios/minimalist/master/.github/minimalist-512.png" width="64" align="left">
+
 # `minimalist`
 Clean HTML portfolio template, responsive, open-source, and ready to use!
 
