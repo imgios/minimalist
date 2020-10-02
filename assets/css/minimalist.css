@@ -126,19 +126,19 @@ a:hover {
  text-align:right;
 }
 
-.timeline-content h3 {
+.timeline-content .timeline-h3 {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 25px;
   font-weight: 500
 }
 
-.timeline-content span {
+.timeline-content .timeline-span {
   font-size: 15px;
   color: #a4a4a4;
 }
 
-.timeline-content p {
+.timeline-content .timeline-p {
   font-size: 14px;
   line-height: 1.5em;
   word-spacing: 1px;
