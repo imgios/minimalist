@@ -5,7 +5,7 @@
 
 <p align="center">Clean HTML portfolio template, responsive, open-source, and ready to use!</p>
 
-###### Built with [Bootstrap](https://getbootstrap.com/) - [Demo](https://imgios.github.io/minimalist/)
+<h6 align="center"><a href="https://imgios.github.io/minimalist/">Demo</a> · Built with <a href="https://getbootstrap.com/">Bootstrap</a></h6>
 
 ## License
 
