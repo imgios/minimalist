@@ -1,11 +1,11 @@
-<img src="https://raw.githubusercontent.com/imgios/minimalist/master/.github/minimalist-512.png" width="64" align="left">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/imgios/minimalist/master/.github/minimalist-512.png" width="64">
+  <h3 align="center"><code>minimalist</code></h3>
+</p>
 
-# `minimalist`
 Clean HTML portfolio template, responsive, open-source, and ready to use!
 
-Demo available on [imgios.github.io/minimalist](https://imgios.github.io/minimalist/).
-
-###### Built with [Bootstrap](https://getbootstrap.com/)
+###### Built with [Bootstrap](https://getbootstrap.com/) - [Demo](https://imgios.github.io/minimalist/).
 
 ## License
 
