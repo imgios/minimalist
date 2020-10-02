@@ -3,9 +3,9 @@
   <h3 align="center"><code>minimalist</code></h3>
 </p>
 
-Clean HTML portfolio template, responsive, open-source, and ready to use!
+<p align="center">Clean HTML portfolio template, responsive, open-source, and ready to use!</p>
 
-###### Built with [Bootstrap](https://getbootstrap.com/) - [Demo](https://imgios.github.io/minimalist/).
+###### Built with [Bootstrap](https://getbootstrap.com/) - [Demo](https://imgios.github.io/minimalist/)
 
 ## License
 
