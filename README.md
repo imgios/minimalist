@@ -7,6 +7,12 @@
 
 <h6 align="center"><a href="https://imgios.github.io/minimalist/">Demo</a> · Built with <a href="https://getbootstrap.com/">Bootstrap</a></h6>
 
+## Contributors
+
+<a href="https://github.com/imgios/minimalist/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=imgios/minimalist" />
+</a>
+
 ## Contributing
 If you want to make it with different colors, add new features, fix any bug, or just contributing, **you're welcome**!
 1. Start by forking the repository.
