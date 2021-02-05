@@ -16,6 +16,17 @@ header, section {
   padding-top: 5rem;
 }
 
+/* Switch button */
+input.switch-mode {
+  background-color: white;
+  border-color: black;
+}
+
+.form-check-label {
+  color: black;
+  margin-left: 10px;
+}
+
 /* Anchors */
 a {
   color: black;
