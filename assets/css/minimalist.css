@@ -1,6 +1,11 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,300,600');
 
+:root {
+  --primary-color: #222;
+  --secondary-color: #FAFAFA;
+}
+
 /* HTML */
 html {
   scroll-behavior: smooth;
@@ -9,6 +14,7 @@ html {
 /* Body */
 body {
   font-family: 'Raleway', sans-serif !important;
+  background-color: var(--secondary-color);
 }
 
 /* Header and Section */
@@ -18,13 +24,13 @@ header, section {
 
 /* Anchors */
 a {
-  color: black;
+  color: var(--primary-color);
   text-decoration: underline;
 }
 
 a:hover {
-  color: black;
-  background-image: linear-gradient(to right, black, black);
+  color: var(--primary-color);
+  background-image: linear-gradient(to right, var(--primary-color), var(--primary-color));
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 100% 2px;
@@ -38,7 +44,7 @@ a:hover {
 
 /* Social Icons a color */
 .social-icons a {
-  color: black!important;
+  color: var(--primary-color)!important;
   background: none;
 }
 
@@ -58,13 +64,13 @@ a:hover {
 
 /* Content Switcher */
 .list-group-item.active {
-  color: white!important;
-  background: black!important;
-  border-color: black!important;
+  color: var(--secondary-color)!important;
+  background: var(--primary-color)!important;
+  border-color: var(--primary-color)!important;
 }
 
 .list-group a {
-  color: black!important;
+  color: var(--primary-color)!important;
 }
 
 /* Timeline */
@@ -115,8 +121,8 @@ a:hover {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  border: 2px solid black;
-  background: white;
+  border: 2px solid var(--primary-color);
+  background: var(--secondary-color);
   margin-top: 10px;
   z-index: 9999
 }
@@ -124,7 +130,7 @@ a:hover {
 .timeline-content {
   width: 95%;
   padding: 0 15px;
-  color: black;
+  color: var(--primary-color);
 }
 
 .timeline-block-left .timeline-content {
@@ -147,7 +153,7 @@ a:hover {
   font-size: 14px;
   line-height: 1.5em;
   word-spacing: 1px;
-  color: black;
+  color: var(--primary-color);
 }
 
 
