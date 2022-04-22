@@ -6,6 +6,11 @@
   --secondary-color: #FAFAFA;
 }
 
+[data-theme="dark"] {
+  --primary-color: #222;
+  --secondary-color: #FAFAFA;
+}
+
 /* HTML */
 html {
   scroll-behavior: smooth;
