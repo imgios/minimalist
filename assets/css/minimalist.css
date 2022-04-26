@@ -47,6 +47,10 @@ a:hover {
   text-decoration: none;
 }
 
+.list-group a {
+  background-color: var(--secondary-color);
+}
+
 /* Social Icons a color */
 .social-icons a {
   color: var(--primary-color)!important;
