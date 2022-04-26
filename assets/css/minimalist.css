@@ -19,7 +19,7 @@ html {
 /* Body */
 body {
   font-family: 'Raleway', sans-serif !important;
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color) !important;
 }
 
 /* Header and Section */
