@@ -1,9 +1,7 @@
 const themeButton = document.getElementById("theme-button");
 
-// Check user theme preferences
-const userThemePreferences = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
-
-switch (userThemePreferences) {
+const switchTheme = (theme) => {
+    switch (theme) {
     case 'dark':
         document.documentElement.setAttribute('data-theme', userThemePreferences);
         themeButton.innerText = '🌚 dark';
@@ -22,4 +20,10 @@ switch (userThemePreferences) {
         themeButton.innerText = '💻 system';
         break;
 }
-// TO-DO: Theme switch
+};
+
+// Check user theme preferences
+const userThemePreferences = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+if (userThemePreferences) {
+    switchTheme(userThemePreferences);
+}
