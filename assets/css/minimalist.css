@@ -53,6 +53,11 @@ a:hover {
   background: none;
 }
 
+/* Custom Switch */
+.custom-switch {
+  padding-left: 2.7rem;
+}
+
 /* User Image */
 .user-image {
   width: 140px;
