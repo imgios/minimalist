@@ -1,14 +1,14 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,300,600');
 
-:root {
+:root, [data-theme="light"] {
   --primary-color: #222;
   --secondary-color: #FAFAFA;
 }
 
 [data-theme="dark"] {
-  --primary-color: #222;
-  --secondary-color: #FAFAFA;
+  --primary-color: #FAFAFA;
+  --secondary-color: #222;
 }
 
 /* HTML */
