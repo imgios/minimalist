@@ -6,11 +6,11 @@ const userThemePreferences = localStorage.getItem('theme') ? localStorage.getIte
 switch (userThemePreferences) {
     case 'dark':
         document.documentElement.setAttribute('data-theme', userThemePreferences);
-        themeButton.value = '🌚 dark';
+        themeButton.innerText = '🌚 dark';
         break;
     case 'light':
         document.documentElement.setAttribute('data-theme', userThemePreferences);
-        themeButton.value = '🌞 light';
+        themeButton.innerText = '🌞 light';
         break;
     case 'system':
         const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
@@ -19,7 +19,7 @@ switch (userThemePreferences) {
         } else {
             document.documentElement.setAttribute('data-theme', 'light');
         }
-        themeButton.value = '💻 system';
+        themeButton.innerText = '💻 system';
         break;
 }
 // TO-DO: Theme switch
