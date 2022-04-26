@@ -6,11 +6,15 @@ const switchTheme = (theme) => {
         case 'dark':
             document.documentElement.setAttribute('data-theme', theme);
             body.classList.add('text-light');
+            themeButton.classList.add('btn-outline-light');
+            themeButton.classList.remove('btn-outline-dark');
             themeButton.innerText = '🌚 dark';
             break;
         case 'light':
             document.documentElement.setAttribute('data-theme', theme);
             body.classList.remove('text-light');
+            themeButton.classList.add('btn-outline-dark');
+            themeButton.classList.remove('btn-outline-light');
             themeButton.innerText = '🌞 light';
             break;
         case 'system':
@@ -18,9 +22,13 @@ const switchTheme = (theme) => {
             if (prefersDarkScheme.matches) {
                 document.documentElement.setAttribute('data-theme', 'dark');
                 body.classList.add('text-light');
+                themeButton.classList.add('btn-outline-light');
+                themeButton.classList.remove('btn-outline-dark');
             } else {
                 document.documentElement.setAttribute('data-theme', 'light');
                 body.classList.remove('text-light');
+                themeButton.classList.add('btn-outline-dark');
+                themeButton.classList.remove('btn-outline-light');
             }
             themeButton.innerText = '💻 system';
             break;
