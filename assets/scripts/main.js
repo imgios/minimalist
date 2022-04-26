@@ -3,11 +3,11 @@ const themeButton = document.getElementById("theme-button");
 const switchTheme = (theme) => {
     switch (theme) {
     case 'dark':
-        document.documentElement.setAttribute('data-theme', userThemePreferences);
+            document.documentElement.setAttribute('data-theme', theme);
         themeButton.innerText = '🌚 dark';
         break;
     case 'light':
-        document.documentElement.setAttribute('data-theme', userThemePreferences);
+            document.documentElement.setAttribute('data-theme', theme);
         themeButton.innerText = '🌞 light';
         break;
     case 'system':
