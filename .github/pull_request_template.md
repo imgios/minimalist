@@ -18,4 +18,4 @@ Please check the type of change your PR introduces:
 ### Description
 Please describe your pull request.
 
-🖤 Thank you!
+<!-- 🖤 Thank you! -->
