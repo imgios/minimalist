@@ -22,6 +22,8 @@ If you want to make it with different colors, add new features, fix any bug, or 
 3. Do the magic and write good commits message!
 4. Create a Pull Request.
 
+Please, read [CONTRIBUTING.md](CONTRIBUTING.md) to know more about it.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
