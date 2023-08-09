@@ -6,9 +6,7 @@
 <p align="center">Clean HTML portfolio template, responsive, open-source, and ready to use!</p>
 
 <p align="center">
-  <a href="https://imgios.github.io/minimalist/" target="_blank"><img alt="minimalist Demo" src="https://img.shields.io/badge/Demo-343a40?style=flat-square"></a>
-  <a href="https://getbootstrap.com/" target="_blank"><img alt="Get Bootstrap" src="https://img.shields.io/badge/Built%20with%20Bootstrap-f8f9fa?style=flat-square"></a>
-  <a href="https://github.com/imgios/minimalist/fork" target="_blank"><img alt="Fork minimalist" src="https://img.shields.io/badge/Create%20your%20own%20portfolio%20on%20GitHub-343a40?style=flat-square"></a>
+  <a href="https://imgios.github.io/minimalist/" target="_blank"><img alt="minimalist Demo" src="https://img.shields.io/badge/Demo-343a40?style=flat-square"></a><a href="https://getbootstrap.com/" target="_blank"><img alt="Get Bootstrap" src="https://img.shields.io/badge/Built%20with%20Bootstrap-f8f9fa?style=flat-square"></a><a href="https://github.com/imgios/minimalist/fork" target="_blank"><img alt="Fork minimalist" src="https://img.shields.io/badge/Create%20your%20own%20portfolio%20on%20GitHub-343a40?style=flat-square"></a>
 </p>
 
 ## Contributors
